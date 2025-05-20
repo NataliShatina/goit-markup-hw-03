@@ -88,12 +88,15 @@ h1, h2, h3, h4, h5, h6, p {
 .footer-page,
 .banner {
   background: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  width: 264px;
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -103,6 +106,7 @@ h1, h2, h3, h4, h5, h6, p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding-bottom: 16px;
 }
 .footer-logo .footer-part {
   color: #f4f4fd;
@@ -119,9 +123,11 @@ h1, h2, h3, h4, h5, h6, p {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.banner-container {
-  display: flex;
-  align-items: center;
+.banner-top{
+  padding-top: 188px;
+  padding-bottom: 48px;
+  width: 496px;
+margin: 0 auto;
 }
 .banner-h {
   font-weight: 700;
@@ -130,7 +136,6 @@ h1, h2, h3, h4, h5, h6, p {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  padding: 188px ;
 }
 .banner-button {
   cursor: pointer;
@@ -140,13 +145,30 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
+  border-radius: 4px;
+  padding: 16px 32px;
 }
 .banner-button:hover,
 .banner-button:focus {
   background: #404bbf;
 }
+.button {
+  display: block;
+  text-align: center;
+  padding-bottom: 188px;
+}
+.capabilities {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .name {
   background: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.portfolio {
+  padding-top: 92px;
+  padding-bottom: 107px;
 }
 
 .name-section {
@@ -157,6 +179,7 @@ h1, h2, h3, h4, h5, h6, p {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 72px;
 }
 .names {
   text-transform: capitalize;
@@ -165,6 +188,7 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .section-text {
   font-size: 16px;
@@ -174,4 +198,19 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .foto-fon {
   background: #fff;
+}
+.frame {
+  border-bottom: 1px solid #e7e9fc;
+border-left: 1px solid #e7e9fc;
+border-right: 1px solid #e7e9fc;
+padding: 32px 16px;
+width: 360px;
+height: 120px;
+}
+.portfolio-list {
+  display: flex;
+  width: 1128px;
+}
+.name-list {
+  display: flex;
 }
