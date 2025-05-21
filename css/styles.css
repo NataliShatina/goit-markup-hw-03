@@ -88,6 +88,8 @@ h1, h2, h3, h4, h5, h6, p {
 .footer-page,
 .banner {
   background: #2e2f42;
+}
+.footer-page {
   padding-top: 100px;
   padding-bottom: 100px;
 }
@@ -107,6 +109,7 @@ h1, h2, h3, h4, h5, h6, p {
   text-transform: uppercase;
   color: #4d5ae5;
   padding-bottom: 16px;
+  display: block;
 }
 .footer-logo .footer-part {
   color: #f4f4fd;
@@ -161,6 +164,11 @@ margin: 0 auto;
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.capabilities-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
 .name {
   background: #f4f4fd;
   padding-top: 120px;
@@ -180,6 +188,11 @@ margin: 0 auto;
   text-align: center;
   color: #2e2f42;
   margin-bottom: 72px;
+}
+.names-text {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
 }
 .names {
   text-transform: capitalize;
@@ -208,9 +221,23 @@ width: 360px;
 height: 120px;
 }
 .portfolio-list {
-  display: flex;
+  
+}
+.portfolio-container {
   width: 1128px;
+  display: flex;
+}
+.portfolio-item,
+.portfolio-item-top {
+  display: flex;
+  text-align: center;
+  gap: 24px;
+}
+.portfolio-item-top {
+  margin-bottom: 48px;
 }
 .name-list {
   display: flex;
+  align-items: center;
+  gap: 24px;
 }
