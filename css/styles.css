@@ -16,6 +16,12 @@ a {
 h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+}
 .container {
   max-width: 1158px;
   padding: 0 15px;
@@ -166,8 +172,10 @@ margin: 0 auto;
 }
 .capabilities-list {
   display: flex;
-  align-items: center;
   gap: 24px;
+}
+.capabilities-item {
+  width: calc((100% - 72px) / 4);
 }
 .name {
   background: #f4f4fd;
@@ -193,6 +201,7 @@ margin: 0 auto;
   padding-top: 32px;
   padding-bottom: 32px;
   text-align: center;
+  border-radius: 0 0 4px 4px;
 }
 .names {
   text-transform: capitalize;
@@ -211,6 +220,8 @@ margin: 0 auto;
 }
 .foto-fon {
   background: #fff;
+  width: calc((100% - 72px) / 4);
+  
 }
 .frame {
   border-bottom: 1px solid #e7e9fc;
@@ -220,24 +231,15 @@ padding: 32px 16px;
 width: 360px;
 height: 120px;
 }
-.portfolio-list {
-  
-}
-.portfolio-container {
-  width: 1128px;
-  display: flex;
-}
-.portfolio-item,
-.portfolio-item-top {
-  display: flex;
-  text-align: center;
-  gap: 24px;
-}
-.portfolio-item-top {
-  margin-bottom: 48px;
-}
+
 .name-list {
   display: flex;
   align-items: center;
   gap: 24px;
+}
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  row-gap: 48px;
 }
